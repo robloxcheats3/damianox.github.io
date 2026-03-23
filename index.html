@@ -61,8 +61,8 @@
   <script>
     // Twój Supabase projekt
     const supabaseUrl = "https://retwfjodylxmdqxhupbz.supabase.co";
-    const supabaseAnonKey = "TU_ANON_KEY_DO_FRONTEND"; // z API Keys → anon key
-    const userId = "USER_ID"; // identyfikator użytkownika w Supabase i AdGem
+    const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJldHdmam9keWx4bWRxeGh1cGJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQyMjkwOTIsImV4cCI6MjA4OTgwNTA5Mn0.GpuCY3K2yeepTek0yPWRC1SEotUetDO9NJgr95OnPYw"; // z API Keys → anon key
+    const userId = "damianox"; // identyfikator użytkownika w Supabase i AdGem
 
     // 1️⃣ Pobierz saldo użytkownika z Supabase
     async function loadBalance() {
@@ -80,7 +80,7 @@
 
     // 2️⃣ Wstaw iframe AdGem
     const appId = "32197"; // Twój App ID z AdGem
-    const offerwallUrl = `https://adunits.adgem.com/wall?appid=${appId}&playerid=${userId}`;
+  const offerwallUrl = `https://adunits.adgem.com/wall?appid=${appId}&playerid=damianox`;
     document.getElementById("offerwall").src = offerwallUrl;
   </script>
 </body>
